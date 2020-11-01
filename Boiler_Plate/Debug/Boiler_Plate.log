@@ -1,0 +1,21 @@
+﻿Build started 01-Nov-20 9:37:57 PM.
+     1>Project "C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Boiler_Plate\Boiler_Plate.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Boiler_Plate.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\ibads\AppData\Local\Temp\tmp62e628473d90448d8e0827af66744386.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Test.obj" /Fl"Boiler_Plate.lst" /I "C:\Irvine" /W3 /errorReport:prompt  /TaTest.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Debug\Boiler_Plate.exe" /NOLOGO /LIBPATH:C:\Irvine Irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Boiler_Plate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Debug\Boiler_Plate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Debug\Boiler_Plate.lib" /MACHINE:X86 Debug\Test.obj
+         Boiler_Plate.vcxproj -> C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Debug\Boiler_Plate.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Debug\Boiler_Plate.exe;#1" /manifest Debug\Boiler_Plate.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Boiler_Plate.unsuccessfulbuild".
+         Touching "Debug\Boiler_Plate.lastbuildstate".
+     1>Done Building Project "C:\Users\ibads\documents\visual studio 2010\Projects\Boiler_Plate\Boiler_Plate\Boiler_Plate.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
